@@ -19,5 +19,6 @@ class Solution(object):
 num = [2, 7, 4]
 k = 181
 
-obj = Solution()
-print(obj.addToArrayForm(num, k))
+if __name__ == "__main__":
+    obj = Solution()
+    print(obj.addToArrayForm(num, k))
